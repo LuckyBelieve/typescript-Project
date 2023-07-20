@@ -68,9 +68,9 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }: Props) => {
       {/* the model menu */}
       {!isAboveMediumScreens && (
         <div
-          className={`fixed  ${
+          className={`fixed ${
             isMenuToggled ? "right-0" : "-right-96"
-          } right-0  bottom-0 z-40 top-0 w-[300px] bg-primary-100 drop-shadow-xl duration-200`}
+          }   bottom-0 z-40 top-0 w-[300px] bg-primary-100 drop-shadow-xl duration-200`}
         >
           <div className="flex justify-end items-center p-5">
             <button
